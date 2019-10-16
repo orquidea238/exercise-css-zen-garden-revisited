@@ -1,0 +1,49 @@
+body {
+    background: #27a8d2;
+}
+
+header {
+    background: url("https://images.unsplash.com/photo-1503177847378-d2048487fa46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f8b28e6a318b7c126e31813199050b9b&auto=format&fit=crop&w=967&q=80");
+}
+
+header * {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.summary p {
+    background: #FF0000;
+}
+
+.preamble p:last-child {
+    background: violet;
+}
+
+.preamble p:first-of-type {
+    background: violet;
+}
+
+div[role="main"] {
+    border: 1px dashed red;
+}
+
+div[role="main"] p:nth-child(2n+1) {
+    background: yellow;
+    color: #00FF00;
+}
+
+h3:hover {
+    border-bottom: 5px dashed pink;
+}
+
+li:nth-child(2n+1) {
+    background: orange;
+}
+
+li:nth-child(2n+0) {
+    background: red;
+}
